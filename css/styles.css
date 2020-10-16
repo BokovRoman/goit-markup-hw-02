@@ -1,0 +1,24 @@
+:root {
+  --title-text-color: #212121;
+  --accent-color: #2196f3;
+  --primary-text-color: #757575;
+  --white-color: #ffffff;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.link:hover,
+.link:focus,
+.link.current {
+  color: var(--accent-color);
+}
+
+ul {
+  list-style-type: none;
+}
